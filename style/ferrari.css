@@ -110,6 +110,12 @@ section {
     padding: 20px;
 }
 
+section > ol {
+    background-color: #dbdbdbce;
+    padding: 20px;
+    border-radius: 20px;
+}
+
 section > p{
     text-align: justify;
     line-height: 1.5;
