@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap'); 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cabin', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    background: url(../imagens/fundo.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+header{
+    background-image: linear-gradient(to bottom,#000000,#000000);
+    height: 150px;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 1px 1px 0px #0000007a;
+}
+
+header > h1{
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 2.2em;
+    text-align: center;
+    text-shadow: 1px 1px 1px #e8e8e8d3;
+    padding: 20px;
+}
+
+header > p{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    padding-top: 5px;
+}
+
+menu{
+    background-color: #000000;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+menu > a{
+    font-family: 'Teko', sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover{
+    font-weight: bolder;
+    background-color: #ffffffff;
+    color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+main{
+    background-color: #ffffff;
+    padding: 10px;
+    padding-top: 36px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+img{
+    width: 20px;
+    
+}
+
+img.merclg{
+    width: 24px;
+}
+img.ford{
+    width: 49px;
+}
+
+main > article > h2{
+    font-size: 1.9em;
+    padding: 10px;
+}
+
+main > article > p{
+    font-family: 'Bebas Neue', sans-serif;;
+    margin: auto;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5;
+    padding: 18px;
+    min-width: 280px;
+    max-width: 800px;
+}
+
+main> article > p > a{
+    background-color: #a6c3c3;
+}
+
+main > article > div.lamb{
+    margin: auto;
+    min-width: 290px;
+    max-width: 850px;
+    height: 230px;
+    background: #000000 url(../imagens/lamborghini-car.jpeg) center center no-repeat;
+    background-size: cover;
+}
+
+main > article > div.ferr{
+    margin: auto;
+    min-width: 290px;
+    max-width: 850px;
+    height: 230px;
+    background: #000000 url(../imagens/ferrari-car.jpeg) center center no-repeat;
+    background-size: cover;
+}
+
+main > article > div.merc{
+    margin: auto;
+    min-width: 290px;
+    max-width: 850px;
+    height: 230px;
+    background: #000000 url(../imagens/mercerdes-car.jpeg) center center no-repeat;
+    background-size: cover;
+}
+
+main > article > div.ford{
+    margin: auto;
+    min-width: 290px;
+    max-width: 850px;
+    height: 230px;
+    background: #000000 url(../imagens/ford-car.jpeg) center center no-repeat;
+    background-size: cover;
+}
+
+section{
+    background-color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+    min-width: 300px;
+    max-width: 982px;
+    padding: 19px;
+    margin: auto;
+}
+
+section > p{
+    min-width: 280px;
+    max-width: 700px;
+    text-align: justify;
+    margin: auto;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    height: 29px;
+    padding: 7px;
+    
+}
+
+footer > p {
+    text-align: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
